@@ -1,0 +1,45 @@
+    /* Fonts */
+    $font-title: 'Uchen', serif ;
+    $font-subtitle:'Montserrat', sans-serif;
+    $font-main: 'PT', sans-serif;
+    
+
+    /* Spacing */
+    $spacing-xxlarge: 15rem;
+    $spacing-xlarge: 10rem;
+    $spacing-large: 6rem;
+    $spacing-medium: 3rem;
+    $spacing-small: 2rem;
+    $spacing-xsmall: 1rem;
+
+/* Sizing */
+    $fontsizes:(
+        large: 5.8em,
+        medium: 3em,
+        base: 2.5em,
+        small: 2em,
+        xsmall: 1.5em,
+    );
+    
+    $grid-columns:      12;
+$grid-gutter-width: 30px;
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+xs: 0,
+  // Small screen / phone
+sm: 576px,
+  // Medium screen / tablet
+md: 768px,
+  // Large screen / desktop
+lg: 992px,
+  // Extra large screen / wide desktop
+xl: 1200px
+);
+
+$container-max-widths: (
+sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px
+);
